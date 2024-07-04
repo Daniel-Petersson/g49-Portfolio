@@ -14,6 +14,18 @@ body {
     width: 100%;
     z-index: 1000;
   }
+
+  .nav-item .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-item .nav-link i {
+    font-size: 1.25rem; /* Adjust the font size to match your other links */
+    vertical-align: middle;
+  }
+  
   section {
     padding-top: 56px; /* Adjust based on navbar height */
     height: calc(100vh - 56px); /* Adjust based on navbar height */
